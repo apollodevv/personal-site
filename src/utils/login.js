@@ -13,7 +13,7 @@ passport.deserializeUser(function(obj, done) {
     done(null, obj);
 })
 
-const scopes = ['identify', 'email', 'guilds', 'guilds.join'];
+const scopes = ['identify', 'email', 'guilds'];
 const prompt = 'consent'
 
 passport.use(new Strategy({
