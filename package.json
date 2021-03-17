@@ -1,27 +1,33 @@
 {
   "name": "personal-site",
   "version": "1.0.0",
-  "description": "My personal site",
-  "main": "main.js",
+  "description": "My own personal website",
+  "main": "src/index.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "node src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/apollodevv/apollodev.me.git"
-  },
   "keywords": [
-    "personal-site"
+    "nodejs",
+    "javascript",
+    "css",
+    "personal-site",
+    "expressjs",
+    "ejs"
   ],
   "author": "apollodev",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/apollodevv/apollodev.me/issues"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apollodevv/personal-site.git"
   },
-  "homepage": "https://github.com/apollodevv/apollodev.me#readme",
+  "bugs": {
+    "url": "https://github.com/apollodevv/personal-site/issues"
+  },
+  "homepage": "https://github.com/apollodevv/personal-site#readme",
   "dependencies": {
-    "express": "^4.17.1",
-    "jsdom": "^16.5.0"
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
   }
 }
